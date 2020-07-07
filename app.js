@@ -1,4 +1,5 @@
 /*Imports */
+/*Commentarios */
 import express from 'express';
 import mongoose from 'mongoose';
 
@@ -7,6 +8,7 @@ import { studentRouter } from './routes/studentRoutes.js';
 const app = express();
 
 /*Conexao com o MongoDB*/
+/*Commentarios */
 (async () => {
   try {
     await mongoose.connect(
